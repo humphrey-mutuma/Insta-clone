@@ -5,7 +5,7 @@ from .models import Profile,Posts,Comments,Following
 
 class FollowingTestClass(TestCase):
     def setUp(self):
-        self.esther=Following(username='mykey',followed='marabel')
+        self.esther=Following(username='humphrey',followed='obama')
                             
     def test_instance(self):
         self.assertTrue(isinstance(self.mykey,Following))
@@ -13,9 +13,9 @@ class FollowingTestClass(TestCase):
 class CommentTestClass(TestCase):
     def setUp(self):
         self.first=Comment(post=1,
-                            username='mykey',
-                            comment='What a great throw-back',
-                            date='Jan 07, 2020, 08:50 a.m.',
+                            username='humphrey',
+                            comment='What a great coding challenge',
+                            date='sep 07, 2020, 08:50 a.m.',
                             count=0)
 
     def test_instance(self):
