@@ -1,4 +1,5 @@
 # Insta-clone
+### Author: *Humphrey Mutuma*
 
 #### Description:
  Instagram web app clone
