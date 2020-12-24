@@ -4,8 +4,7 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: medium;
     text-align: center;
-    
-    
+    min-height: 100vh;
 }
 
 #register {
@@ -13,15 +12,21 @@ body {
 }
 
 #title {
-        background: -webkit-linear-gradient( #78ffd6, #007991);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
+    background: -webkit-linear-gradient( #78ffd6, #007991);
+    -webkit-text-fill-color: transparent;
+}
+#welcome {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #login {
     text-align: center;
-    float:left;
     background: transparent;
+    margin: auto;
+    width: 60%;
+    height: auto;
 }
 
 #logo {
@@ -31,11 +36,13 @@ body {
 }
 
 #colored-nav {
-    background-color:rgba(43, 42, 42, 0.507);
-    border-bottom:solid 2px #131413;
+    background-color:rgb(70, 4, 37);
+    /* border-bottom:solid 2px #131413; */
     margin:0;
     padding-top: 0%;
-    height:70px;
+    height:12vh;
+    z-index: 99;
+    color: white;
 }
 
 #buybutton {

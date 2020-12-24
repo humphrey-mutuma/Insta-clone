@@ -7,6 +7,9 @@ from .forms import DetailsForm,PostForm
 from django.db.models import F
 
 # Create your views here.
+def welcome(request):
+    return render(request, 'welcome.html')
+
 def registration_complete(request):
     return render(request, 'django_registration/registration_complete.html')
 

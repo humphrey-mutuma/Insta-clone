@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid" style="background-color: hotpink; min-height: 100vh;">
+    <div class="row">
+        <div class="col-md-12" id="welcome">
+            <div class="card " id="login">
+                <div class="card-body">
+                    <h4 class="card-title" id="logo">Instagram</h4>
+                    <div class="row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-6" style="margin-top:2%;">
+                                <a href="/accounts/login" class="btn btn-outline-info">Log In</a>
+                            <h5 style="margin-top:10%;">Have an account? <a href="/accounts/register" style="color:greenyellow;">Sign Up</a></h5>
+                            <div class="row" id="buybutton" style="margin-left:15%;">
+                                <div class="col-sm-4 col-md-4" class="btn">
+                                    <img src="https://play.google.com/intl/en/badges/images/generic/en_badge_web_generic.png" alt=""
+                                        class="img-fluid">
+                                </div>
+                                <div class="col-sm-4 col-md-4" class="btn">
+                                    <img src="https://speedify.com/wp-content/uploads/App_Store_Badge_EN.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+{%  endblock %}
